@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: grr-reat
+  description: Tony the tiger frosted flakes.
+  tags:
+    - java
+    - flakes
+  links:
+    - url: https://github.com/shukilagama/grrr
+      title: grr
+      icon: github
+spec:
+  type: Repository
+  lifecycle: lombelico
+  owner: team-b
+  system: podcast
